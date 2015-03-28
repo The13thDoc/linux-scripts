@@ -13,8 +13,6 @@ echo 'Starting check...' > $filename
 #echo 'Only display files with errors' >> $filename
 echo '' >> $filename
 
-# /media/Elements/Music/Metallica
-# ./**/*.flac
 for file in ./**/*.flac; do
 	echo $file
     #echo 'Checking: ' $file >> $filename
